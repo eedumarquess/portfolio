@@ -4,13 +4,21 @@
 </script>
 
 <template>
-  <Menu />
+  <div class="nav">
+    <router-link to="/">Home</router-link>
+    <router-link to="/about-me">About-me</router-link>
+  </div>
+  <router-view/>
 </template>
 
 <style>
   @font-face {
     font-family: "LeagueSpartan";
-    src: url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500&display=swap');;
+    src: local('LeagueSpartan'), url(./fonts/LeagueSpartan.ttf) format("truetype");
+  }
+
+  .nav {
+    display: none;
   }
 
   * {
