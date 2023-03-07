@@ -4,8 +4,6 @@
 </script>
 
 <template>
-  <Menu />
-  
   <div class="projects-body">
     <div class="projects-text">
       <h1>

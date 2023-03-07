@@ -9,12 +9,14 @@
     <router-link to="/about-me">About-me</router-link>
   </div>
   <router-view/>
+
+  <p>oiu</p>
 </template>
 
 <style>
   @font-face {
     font-family: "LeagueSpartan";
-    src: local('LeagueSpartan'), url(/public/assets/fonts/LeagueSpartan.ttf) format("truetype");
+    src: local('LeagueSpartan'), url(/src/assets/fonts/LeagueSpartan.ttf) format("truetype");
   }
 
   .nav {

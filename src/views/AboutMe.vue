@@ -3,8 +3,6 @@
 </script>
 
 <template>
-  <Menu />
-
   <div class="identification-body">
     <div class="identification-card">
       <p class="card-title">

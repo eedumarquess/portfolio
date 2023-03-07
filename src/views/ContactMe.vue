@@ -3,8 +3,6 @@
 </script>
 
 <template>
-  <Menu />
-  
   <div class="contact-body">
     <div class="contact-social">
       <h1>
@@ -20,25 +18,25 @@
 
       <div class="icons-social">
         <a href="">
-          <img src="/public/assets/icons/linkedin.png" />
+          <img src="/src/assets/icons/linkedin.png" />
 
           <span>Linkedin</span>
         </a>
         
         <a href="">
-          <img src="/public/assets/icons/github.png" />
+          <img src="/src/assets/icons/github.png" />
 
           <span>Github</span>
         </a>
         
         <a href="">
-          <img src="/public/assets/icons/instagram.png" />
+          <img src="/src/assets/icons/instagram.png" />
 
           <span>Instagram</span>
         </a>
         
         <a href="">
-          <img src="/public/assets/icons/twitter.png" />
+          <img src="/src/assets/icons/twitter.png" />
 
           <span>Twitter</span>
         </a>

@@ -7,7 +7,7 @@
     },
     computed: {
       imageUrl() {
-        return new URL(`/public/assets/images/${this.projectImage}.png`, import.meta.url).toString();
+        return new URL(`/src/assets/images/${this.projectImage}.png`, import.meta.url).toString();
       },
     },
   }

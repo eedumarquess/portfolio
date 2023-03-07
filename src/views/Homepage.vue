@@ -3,8 +3,6 @@
 </script>
 
 <template>
-  <Menu position="fixed"/>
-
   <div class="homepage-text">
     <h1 class="homepage-title">
       Hello, I’m Eduardo, <br/>
@@ -26,12 +24,14 @@
     </div>
     <router-view/>
   </div>
+
+
 </template>
 
 <style>  
   @font-face {
     font-family: "LeagueSpartan";
-    src: url(/public/assets/fonts/LeagueSpartan.ttf);
+    src: url(/src/assets/fonts/LeagueSpartan.ttf);
   }
 
   .homepage-text {
