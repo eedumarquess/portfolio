@@ -1,8 +1,10 @@
 <script setup lang="ts">
-
+  import Menu from '@/components/menu/Menu.vue';
 </script>
 
 <template>
+  <Menu />
+
   <div class="identification-body">
     <div class="identification-card">
       <p class="card-title">
@@ -14,11 +16,7 @@
       </p>
       
       <p class="card-paragraph">
-        After completing my degree in 2022, I have acquired extensive knowledge in all areas of IT, with a particular interest and proficiency in web programming. Over the past two years, I have honed my skills in web design, and I thoroughly enjoy working with JavaScript and its various frameworks. 
-      </p>
-      
-      <p class="card-paragraph">
-        As for my personal interests, I live with my partner and two cats, Teddy and Xayah. In my free time, I enjoy playing video games, as well as keeping up with the latest trends in pop culture, including movies and TV series.
+        After completing my degree in 2022, I have acquired extensive knowledge in all areas of IT, with a particular interest and proficiency in web programming. Over the past two years, I have honed my skills in web design, and I thoroughly enjoy working with Javascript and its various frameworks. 
       </p>
     </div>
   </div>

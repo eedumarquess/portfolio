@@ -4,75 +4,26 @@
 
 <template>
   <div class="menubar-sidebar">
-    <p class="close-button">
-      x
-    </p>
+    <img 
+      class="icon-menu" 
+      src="../../assets/images/bars-solid.svg" 
+      v-on:click=""
+    />
+  </div>
 
-    <div class="url-navigate">
-      <ul>
-        <li>
-          HOME
-        </li>
+  <div>
 
-        <li>
-          ABOUT ME
-        </li>
-
-        <li>
-          PROJECTS
-        </li>
-
-        <li>
-          CONTACT ME
-        </li>
-      </ul>
-    </div>
-
-    <div class="icons">
-      <p>
-        icons
-      </p>
-    </div>
   </div>
 </template>
 
 <style>
   .menubar-sidebar {
-    font-family: "LeagueSpartan";
-    background-color: #222831;
-    color: #fff;
-    width: 350px;
-    height: 100vh;
+    position: relative;
   }
 
-  .close-button {
-    padding: 50px;
-    font-size: 40px;
-  }
-
-  .url-navigate > ul {
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    background-color: green;
-  }
-
-  .url-navigate > ul > li {
-    padding: 15px;
-    font-weight: 500;
-  }
-
-  .icons {
-    position: absolute;
-    bottom: 0;
-  }
-
-  li{
-    font-size: 32px;
-    list-style: none;
-  }
-
-  li::before{
-    content: "\2192";
+  .icon-menu {
+    margin: 50px;
+    filter: invert(95%) sepia(100%) saturate(14%) hue-rotate(213deg) brightness(104%) contrast(104%);
+    width: 60px;
   }
 </style>

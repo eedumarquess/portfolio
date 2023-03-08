@@ -1,8 +1,10 @@
 <script setup lang="ts">
-
+  import Menu from '@/components/menu/Menu.vue';
 </script>
 
 <template>
+  <Menu />
+
   <div class="homepage-text">
     <h1 class="homepage-title">
       Hello, I’m Eduardo, <br/>

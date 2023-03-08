@@ -1,8 +1,10 @@
 <script setup lang="ts">
-
+  import Menu from '@/components/menu/Menu.vue';
 </script>
 
 <template>
+  <Menu />
+  
   <div class="contact-body">
     <div class="contact-social">
       <h1>

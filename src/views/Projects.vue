@@ -1,8 +1,11 @@
 <script setup lang="ts">
+  import Menu from '@/components/menu/Menu.vue';
   import Card from '@/components/project-card/Card.vue';
 </script>
 
 <template>
+  <Menu />
+  
   <div class="projects-body">
     <div class="projects-text">
       <h1>
