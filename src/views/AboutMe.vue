@@ -25,15 +25,7 @@
 </template>
 
 <style>
-  @font-face {
-    font-family: "LeagueSpartan";
-    src: url('../assets/fonts/LeagueSpartan.ttf');
-  }
-
   .identification-body {
-    font-family: "LeagueSpartan";
-    background-color: #222831;
-    color: #fff;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -45,20 +37,21 @@
   .identification-card {
     width: 550px;
     padding: 60px 10px 60px 10px;
-    background-blend-mode: overlay, normal;
+    background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%);
     backdrop-filter: blur(40px);
     border-radius: 25px;
-    border: 1px solid black;
+    box-shadow: 0px 0px 0px 2px rgba(27, 152, 224, 0.25)
   }
 
   .card-title {
     font-size: 36px !important;
-    font-weight: 500;
+    font-weight: 500 !important;
     color: #1B98E0;
   }
 
   .card-title, .card-paragraph {
     text-align: justify;
+    font-weight: 300;
     font-size: 24px;
     padding: 10px;
   }

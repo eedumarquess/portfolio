@@ -30,4 +30,14 @@
     vertical-align: baseline;
     background: transparent;
   }
+
+  body {
+    font-family: "LeagueSpartan";
+    background-color: #222831;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 </style>

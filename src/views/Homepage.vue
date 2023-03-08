@@ -33,9 +33,6 @@
   }
 
   .homepage-text {
-    font-family: "LeagueSpartan";
-    background-color: #222831;
-    color: #fff;
     width: 100vw;
     height: 100vh;
     display: flex;
