@@ -15,18 +15,20 @@
     </p>
     <div id="nav">
       <router-link to="/about-me">
-        Who Am I
+        → Who Am I
       </router-link>
       <router-link to="/projects">
-        Projects
+        → Projects
       </router-link>
       <router-link to="/contact-me">
-        Contact Me
+        → Contact Me
       </router-link>
     </div>
     <router-view/>
   </div>
 </template>
+
+<!-- color: #1B98E0; -->
 
 <style>  
   @font-face {
@@ -44,30 +46,39 @@
   }
 
   .homepage-title {
+    margin: 4px 16px;
     text-align: center;
-    color: #1B98E0;
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 500;
-    padding: 5px;
-    line-height: 45px;
+    color: #1B98E0;
   }
 
   .homepage-paragraph {
-    font-weight: 300;
+    margin: 4px 16px;
     font-size: 24px;
-    padding: 5px 5px 15px 5px;
-  }
-
-  #nav > a {
-    color: #fff;
-    text-decoration: none;
     font-weight: 300;
-    padding: 5px;
-    font-size: 20px;
+    text-align: center;
   }
 
-  #nav > a::before {
-    content: "\2192";
+  #nav {
+    display: none;
+  }
+
+  @media screen and (min-width: 380px) {
+    #nav {
+      display: block;
+      margin: 4px;
+    }
+
+    #nav > a {
+      padding: 4px;
+      margin: 4px;
+      font-size: 20px;
+    }
+
+    #nav > a:hover {
+      color: #1B98E0;
+    }
   }
 
 </style>

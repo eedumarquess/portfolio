@@ -46,7 +46,7 @@ export default {
           Projects
         </router-link>
         <router-link to="/contact-me">
-          Contact Me
+          Contact
         </router-link>
       </div>
       
@@ -77,7 +77,7 @@ export default {
   }
 
   .icon-menu {
-    margin: 35px;
+    margin: 30px;
     filter: invert(95%) sepia(100%) saturate(14%) hue-rotate(213deg) brightness(104%) contrast(104%);
     width: 40px;
     aspect-ratio: 1;
@@ -100,11 +100,7 @@ export default {
   .menubar-links > a {
     padding: 5px;
     margin: 5px 30px;
-    font-size: 45px;
-  }
-
-  .menubar-links > a::before {
-    content: "\2192";
+    font-size: 54px;
   }
 
   .menubar-icons {
