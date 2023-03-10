@@ -20,9 +20,9 @@
           {{ projectTitle }}
         </p>
 
-        <span class="project-link">
+        <p class="project-link">
           {{ projectLink?.slice(12, projectLink.length) }}
-        </span>
+        </p>
       </div> 
     </a>
     
@@ -31,45 +31,63 @@
 
 <style>
   .card-body {
-    width: 415px;
-    height: 300px;
-    margin: 15px;
+    width: 100%;
+    margin: 16px;
     border-radius: 8px;
   }
 
   .card-image {
-    width: 415px;
-    height: 200px;
-    border-radius: 8px 8px 0px 0px;
-    background-color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    aspect-ratio: 3.5/2;
+    object-fit: contain;
+    border-radius: 8px 8px 0px 0px;
+    background-color: #fff;
   }
 
   .card-text {
-    width: 411.5px;
-    height: 100px;
-    margin: 2px 0px 0px 2px;
+    margin: 2px 0px;
+    padding: 8px;
     border-radius: 0px 0px 8px 8px;
     background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%);
     box-shadow: 0px 0px 0px 2px rgba(27, 152, 224, 0.25)
   }
 
   .project-title {
-    font-size: 24px;
-    color: #fff;
-    padding: 30px 20px 5px 20px
+    font-size: 20px;
+    margin: 8px 0px 4px 2px;
+    color: #fff;    
   }
 
   .project-link {
     font-size: 16px;
+    margin: 4px 0px 8px 2px;
     color: #1B98E0;
-    margin: 5px 20px 30px 20px;
+  }
+  
+  .card-body > a {
+    text-decoration: none;
+    color: #fff;
   }
 
-  a {
-    text-decoration: none;
+  @media screen and (min-width: 760px) {
+    .card-body {
+      width: 415px;
+      height: 300px;
+      margin: 0px 12px 64px 12px;
+      border-radius: 8px;
+    }
+
+    .project-title {
+      font-size: 32px;
+      margin: 16px 0px 4px 8px;
+    }
+
+    .project-link {
+      font-size: 24px;
+      margin: 4px 0px 16px 8px;
+    }
   }
 </style>

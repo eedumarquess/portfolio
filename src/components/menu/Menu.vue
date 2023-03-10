@@ -99,9 +99,11 @@ export default {
   }
 
   .menubar-links > a {
+    text-decoration: none;
     padding: 5px;
     margin: 5px 32px;
     font-size: 54px;
+    text-decoration: none;
   }
 
   .menubar-icons {

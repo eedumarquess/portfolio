@@ -52,20 +52,23 @@
         project-title="My Github"
         project-link="https://www.github.com/eedumarquess"
       />
-
     </div>
       
   </div>
 </template>
 
 <style>
-  .projects-text {
-    padding: 20px;
+  .projects-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 105px;
   }
 
   .projects-text > h1 {
     text-align: center;
-    padding: 15px;
+    margin: 4px;
     font-size: 48px;
     font-weight: 500;
   }
@@ -73,7 +76,7 @@
   .projects-text > p {
     text-align: center;
     color: #1B98E0;
-    padding: 15px;
+    margin: 8px;
     font-size: 26px;
     font-weight: 300;
   }
@@ -84,7 +87,9 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
+    margin: 48px 0px;
   }
+
 
 
 </style>

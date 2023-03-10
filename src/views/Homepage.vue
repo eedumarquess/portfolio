@@ -69,6 +69,7 @@
     }
 
     #nav > a {
+      text-decoration: none;
       padding: 4px;
       margin: 4px;
       font-size: 20px;

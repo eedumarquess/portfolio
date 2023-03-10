@@ -37,7 +37,12 @@
   }
 
   .identification-card {
+    box-shadow: 0px 0px 0px 2px rgba(27, 152, 224, 0.15);
+    background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%);
+    backdrop-filter: blur(40px);
+    padding: 12px;
     margin: 32px;
+    border-radius: 8px;
     text-align: justify;
   }
 
@@ -57,9 +62,8 @@
 
   @media screen and (min-width: 384px) {
     .identification-card {
+      width: 75%;
       padding: 32px;
-      background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%);
-      backdrop-filter: blur(40px);
       border-radius: 25px;
       box-shadow: 0px 0px 0px 2px rgba(27, 152, 224, 0.15)
     }
