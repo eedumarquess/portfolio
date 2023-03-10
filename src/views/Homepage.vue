@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <Menu />
+  <Menu position="fixed"/>
 
   <div class="homepage-text">
     <h1 class="homepage-title">
@@ -27,8 +27,6 @@
     <router-view/>
   </div>
 </template>
-
-<!-- color: #1B98E0; -->
 
 <style>  
   @font-face {
@@ -64,7 +62,7 @@
     display: none;
   }
 
-  @media screen and (min-width: 380px) {
+  @media screen and (min-width: 384px) {
     #nav {
       display: block;
       margin: 4px;

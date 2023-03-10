@@ -73,11 +73,12 @@ export default {
 
 <style>
   .menubar-sidebar {
+    z-index: 9999;
     position: fixed;
   }
 
   .icon-menu {
-    margin: 30px;
+    margin: 32px;
     filter: invert(95%) sepia(100%) saturate(14%) hue-rotate(213deg) brightness(104%) contrast(104%);
     width: 40px;
     aspect-ratio: 1;
@@ -99,7 +100,7 @@ export default {
 
   .menubar-links > a {
     padding: 5px;
-    margin: 5px 30px;
+    margin: 5px 32px;
     font-size: 54px;
   }
 
