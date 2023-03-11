@@ -87,7 +87,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-    margin: 48px 0px;
+    margin: 54px 0px;
   }
 
 
