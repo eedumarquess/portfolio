@@ -31,7 +31,7 @@
 <style>  
   @font-face {
     font-family: "LeagueSpartan";
-    src: url('../assets/fonts/LeagueSpartan.ttf');
+    src: url(/public/assets/fonts/LeagueSpartan.ttf);
   }
 
   .homepage-text {

@@ -14,7 +14,7 @@
 <style>
   @font-face {
     font-family: "LeagueSpartan";
-    src: local('LeagueSpartan'), url(./fonts/LeagueSpartan.ttf) format("truetype");
+    src: local('LeagueSpartan'), url(/public/assets/fonts/LeagueSpartan.ttf) format("truetype");
   }
 
   .nav {

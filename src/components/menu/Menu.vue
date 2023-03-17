@@ -19,13 +19,13 @@ export default {
     <img 
       v-if="isMenuActive"
       class="icon-menu" 
-      src="../../assets/images/xmark-solid.svg" 
+      src="//public/assets/images/xmark-solid.svg" 
       @click="handleMenu"
     />
     <img 
       v-else="isMenuActive"
       class="icon-menu" 
-      src="../../assets/images/bars-solid.svg" 
+      src="//public/assets/images/bars-solid.svg" 
       @click="handleMenu"
     />
 
@@ -52,19 +52,19 @@ export default {
       
       <div class="menubar-icons">
         <a href="">
-          <img src="../../assets/icons/linkedin.png" />
+          <img src="/public/assets/icons/linkedin.png" />
         </a>
         
         <a href="">
-          <img src="../../assets/icons/github.png" />
+          <img src="/public/assets/icons/github.png" />
         </a>
         
         <a href="">
-          <img src="../../assets/icons/instagram.png" />
+          <img src="/public/assets/icons/instagram.png" />
         </a>
         
         <a href="">
-          <img src="../../assets/icons/twitter.png" />
+          <img src="/public/assets/icons/twitter.png" />
         </a>
       </div>
     </nav>

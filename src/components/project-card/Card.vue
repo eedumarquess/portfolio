@@ -1,11 +1,15 @@
-<script lang="ts">
-
+<script lang="ts">  
   export default {
     props: {
       projectImage: String,
       projectTitle: String,
       projectLink: String,
-    }
+    },
+    computed: {
+      imageUrl() {
+        return new URL(`/public/assets/images/${this.projectImage}.png`, import.meta.url).toString();
+      },
+    },
   }
 </script>
 
@@ -13,7 +17,7 @@
   <div class="card-body">
     <a v-bind:href=projectLink>
       <div class="card-image">
-        <img :src="`src/assets/images/${projectImage}.png`">
+        <img :src=imageUrl>
       </div>
       <div class="card-text">
         <p class="project-title">
