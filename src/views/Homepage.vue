@@ -3,6 +3,7 @@
 </script>
 
 <template>
+  <Menu />
   <div class="homepage-text">
     <h1 class="homepage-title">
       Hello, I’m Eduardo, <br/>

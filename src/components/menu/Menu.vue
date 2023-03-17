@@ -16,19 +16,24 @@ export default {
 
 <template>
   <div class="menubar-sidebar">
-    <img 
-      v-if="isMenuActive"
-      class="icon-menu" 
-      src="/src/assets/images/xmark-solid.svg" 
-      @click="handleMenu"
-    />
-    <img 
-      v-else="isMenuActive"
-      class="icon-menu" 
-      src="/src/assets/images/bars-solid.svg" 
-      @click="handleMenu"
-    />
-
+    <div 
+      class="icon-header"
+      v-bind:style= "[isMenuActive ? {backgroundColor: '#222831' } : {backgroundColor: 'transparent' }]"
+    >
+      <img 
+        v-if="isMenuActive"
+        class="icon-menu" 
+        src="/src/assets/images/xmark-solid.svg" 
+        @click="handleMenu"
+      />
+      <img 
+        v-else="isMenuActive"
+        class="icon-menu" 
+        src="/src/assets/images/bars-solid.svg" 
+        @click="handleMenu"
+      />
+    </div>
+    
     <nav
       class="menubar-nav" 
       :style="{
@@ -75,6 +80,10 @@ export default {
   .menubar-sidebar {
     z-index: 9999;
     position: fixed;
+  }
+
+  .icon-header {
+    width: 100vw;
   }
 
   .icon-menu {

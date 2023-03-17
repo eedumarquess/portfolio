@@ -1,6 +1,9 @@
 <script setup lang="ts">
   import { RouterLink, RouterView } from 'vue-router'
-  import Menu from './components/menu/Menu.vue';
+
+  import AboutMe from './views/AboutMe.vue';
+  import Projects from './views/Projects.vue';
+  import ContactMe from './views/ContactMe.vue'
 </script>
 
 <template>
@@ -10,7 +13,10 @@
   </div>
   <router-view/>
 
-  <p>oiu</p>
+  <AboutMe />
+  <Projects />
+  <ContactMe />
+
 </template>
 
 <style>
