@@ -80,6 +80,7 @@ export default {
   .menubar-sidebar {
     z-index: 9999;
     position: fixed;
+    display: none;
   }
 
   .icon-header {
@@ -127,5 +128,11 @@ export default {
   .menubar-icons > a > img {
     margin: 10px 7.5px;
     width: 25px;
+  }
+
+  @media screen and (min-width: 320px) {
+    .menubar-sidebar {
+      display: block;
+    }
   }
 </style>
