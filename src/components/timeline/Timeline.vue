@@ -178,7 +178,7 @@
     }
 
     .icons-language {
-      font-size: 36px;
+      font-size: 32px;
       padding: 8px;
     }
   }

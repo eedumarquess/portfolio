@@ -35,7 +35,7 @@
 
 <style>
   .card-body {
-    width: 100%;
+    width: 75%;
     margin: 16px;
     border-radius: 8px;
   }
@@ -85,12 +85,12 @@
     }
 
     .project-title {
-      font-size: 32px;
+      font-size: 24px;
       margin: 16px 0px 4px 8px;
     }
 
     .project-link {
-      font-size: 24px;
+      font-size: 20px;
       margin: 4px 0px 16px 8px;
     }
   }

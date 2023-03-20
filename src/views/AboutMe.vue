@@ -29,4 +29,10 @@
       height: 135vh;
     }
   }
+
+  @media screen and (min-width: 1440px) {
+    .identification-body {
+      height: 100vh;
+    }
+  }
 </style>

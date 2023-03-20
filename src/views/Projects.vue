@@ -1,5 +1,4 @@
 <script setup lang="ts">
-  import Menu from '@/components/menu/Menu.vue';
   import Card from '@/components/project-card/Card.vue';
 </script>
 
@@ -87,7 +86,4 @@
     justify-content: space-around;
     margin: 54px 0px;
   }
-
-
-
 </style>
