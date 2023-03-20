@@ -42,10 +42,23 @@
   body {
     font-family: "LeagueSpartan";
     background-color: #222831;
+    animation: pulsate 24s ease-out infinite;
     color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  @keyframes pulsate {
+    0% {
+      background-color: #222831;
+    }
+    50% {
+      background-color: #324865;
+    }
+    100% {
+      background-color: #222831;
+    }
   }
 </style>
