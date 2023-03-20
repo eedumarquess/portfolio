@@ -42,7 +42,7 @@
   body {
     font-family: "LeagueSpartan";
     background-color: #222831;
-    animation: pulsate 24s ease-out infinite;
+    animation: pulsate 20s ease-out infinite;
     color: #fff;
     display: flex;
     flex-direction: column;
