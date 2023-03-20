@@ -4,7 +4,6 @@
 </script>
 
 <template>
-  <Menu />
   <div class="homepage-body">
     <div class="homepage-image">
       <div class="profile-image">
@@ -58,7 +57,7 @@
 
   .homepage-image {
     width: 100%;
-    height: 20vh;
+    height: 25vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,8 +65,8 @@
 
   .profile-image {
     background: white;
-    width: 150px;
-    height: 150px;
+    width: 175px;
+    height: 175px;
     border-radius: 50%;
   }
 
@@ -100,11 +99,6 @@
     margin: 16px;
   }
 
-  #nav router-link {
-    margin: 8px 0px;
-    font-size: 18px;
-  }
-
   .scrolldown-icon {
     width: 100%;
     height: 30vh;
@@ -125,11 +119,6 @@
       width: 50%;
     }
 
-    .homepage-text {
-      height: 100vh;
-      width: 50%;
-    }
-
     .scrolldown-icon {
       position: fixed;
       bottom: 0;
@@ -137,6 +126,55 @@
     
     #nav {
       display: flex;
+      flex-wrap: wrap;
+    }
+
+    #nav > a {
+      padding: 5px;
+      text-decoration: none;
+    }
+
+    #nav > a:visited {
+      padding: 5px;
+      text-decoration: none;
+      color: white;
+    }
+
+    .profile-image {
+      background: white;
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+    }
+
+    .homepage-title {
+      font-size: 40px;
+    }
+
+    .homepage-paragraph {
+      font-size: 24px;
+    }
+
+    .homepage-text {
+      height: 100vh;
+      width: 50%;
+      font-size: 16px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .homepage-title {
+      font-size: 40px;
+    }
+
+    .homepage-paragraph {
+      font-size: 32px;
+    }
+
+    .homepage-text {
+      height: 100vh;
+      width: 50%;
+      font-size: 24px;
     }
 
     .profile-image {
@@ -146,7 +184,6 @@
       border-radius: 50%;
     }
   }
-
   
 
 </style>

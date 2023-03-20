@@ -1,17 +1,16 @@
 <script lang="ts">
-
-export default {
-  data() {
-    return {
-      isMenuActive: false,
-    };
-  },
-  methods: {
-    handleMenu() {
-      this.isMenuActive = !this.isMenuActive
+  export default {
+    data() {
+      return {
+        isMenuActive: false,
+      };
     },
+    methods: {
+      handleMenu() {
+        this.isMenuActive = !this.isMenuActive
+      },
+    }
   }
-}
 </script>
 
 <template>
@@ -130,7 +129,7 @@ export default {
     width: 25px;
   }
 
-  @media screen and (min-width: 320px) {
+  @media screen and (min-width: 375px) {
     .menubar-sidebar {
       display: block;
     }
